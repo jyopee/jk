@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jk.prj.notice.map.NoticeMapper">
+	<select id="noticeSelectList" resultType="co.jk.prj.notice.service.NoticeVO">
+	
+	</select>
+	
+	<select id="noticeSelect" resultType="co.jk.prj.notice.service.NoticeVO">
+	
+	</select>
+	
+	<insert id="noticeInsert" parameterType="co.jk.prj.notice.service.NoticeVO">
+	
+	</insert>
+	
+	<delete id="noticeDelete" parameterType="co.jk.prj.notice.service.NoticeVO">
+	
+	</delete>
+	
+	<update id="noticeUpdate">
+	
+	</update>
+</mapper>
+

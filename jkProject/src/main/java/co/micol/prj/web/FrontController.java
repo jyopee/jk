@@ -11,9 +11,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import co.micol.prj.book.command.AjaxBookAdd;
-import co.micol.prj.book.command.AjaxBookList;
-import co.micol.prj.book.command.book;
 import co.micol.prj.common.Command;
 import co.micol.prj.main.MainCommand;
 
@@ -32,12 +29,7 @@ public class FrontController extends HttpServlet {
 	// 요청한 것을 실행하는 명령을 모아 두는 곳
 	public void init(ServletConfig config) throws ServletException {
 	
-		map.put("/main.do", new MainCommand()); // 처음 보여줄 페이지 명령
-		map.put("/book.do", new book()); // ajax목록
 
-		map.put("/ajaxBookList.do", new AjaxBookList()); // ajax목록
-		map.put("/ajaxBookAdd.do", new AjaxBookAdd()); // ajax입력
-//		map.put("/ajaxBookDel.do", new AjaxBookRemove()); // ajax삭제
 
 	}
 

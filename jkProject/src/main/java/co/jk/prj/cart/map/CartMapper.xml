@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jk.prj.cart.map.CartMapper">
+	<select id="cartSelectList" resultType="co.jk.prj.cart.service.CartVO">
+	
+	</select>
+	
+	<select id="cartSelect" resultType="co.jk.prj.cart.service.CartVO">
+	
+	</select>
+	
+	<insert id="cartInsert" parameterType="co.jk.prj.cart.service.CartVO">
+	
+	</insert>
+	
+	<delete id="cartDelete" parameterType="co.jk.prj.cart.service.CartVO">
+	
+	</delete>
+	
+	<update id="cartUpdate">
+	
+	</update>
+	
+</mapper>

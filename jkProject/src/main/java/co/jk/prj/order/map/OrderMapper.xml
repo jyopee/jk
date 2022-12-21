@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jk.prj.order.map.OrderMapper">
+	<select id="orderSelectList" resultType="co.jk.prj.order.service.OrderVO">
+	
+	</select>
+	
+	<select id="orderSelect" resultType="co.jk.prj.order.service.OrderVO">
+	
+	</select>
+	
+	<insert id="orderInsert" parameterType="co.jk.prj.order.service.OrderVO">
+	
+	</insert>
+	
+	<delete id="orderDelete" parameterType="co.jk.prj.order.service.OrderVO">
+	
+	</delete>
+	
+	<update id="orderUpdate">
+	
+	</update>
+</mapper>
