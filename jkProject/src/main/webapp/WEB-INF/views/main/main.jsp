@@ -9,7 +9,7 @@
 </head>
 <body>
 <div align="center">
-	<h1>WellCome To My WebSite</h1>
+	<h1>WellCome To My WebSite??</h1>
 		<img src="/imgFile/보미.jpeg" width="200" height="200px">
 </div>
 
