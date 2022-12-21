@@ -8027,7 +8027,7 @@ h1, h2, h3, h4, h5,
   position: relative;
   z-index: 0;
   width: 100%;
-  background: #a23f25; }
+  background: rgb(192, 192, 192); }
   .wrap .phone {
     z-index: 1;
     font-weight: 200; }
@@ -8035,7 +8035,7 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.6); }
     .wrap .phone a {
       color: rgba(255, 255, 255, 0.6);
-      font-size: 12px; }
+      font-size: 30px; }
   @media (max-width: 767.98px) {
     .wrap .reg {
       width: 50%;
@@ -8045,7 +8045,8 @@ h1, h2, h3, h4, h5,
     .wrap .reg p a {
       color: rgba(255, 255, 255, 0.8);
       text-transform: uppercase;
-      font-size: 13px; }
+      font-size: 20px;
+      font-weight: 500; }
 
 .social-media {
   display: inline-block; }
@@ -8171,13 +8172,13 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 20px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 20px;
     padding-right: 20px;
     color: rgba(255, 255, 255, 0.5);
-    font-weight: 300;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
     opacity: 1 !important; }
@@ -8337,7 +8338,7 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 50px;
   position: relative;
   text-transform: uppercase; }
 
@@ -8566,11 +8567,6 @@ h1, h2, h3, h4, h5,
         background: #b7472a !important;
         color: #fff !important; }
 
-.ftco-intro {
-  background: #b7472a; }
-  .ftco-intro .intro {
-    z-index: 0;
-    position: relative; }
 
 .intro {
   width: 100%;
@@ -8832,6 +8828,7 @@ h1, h2, h3, h4, h5,
     @media (max-width: 767.98px) {
       .nav-pills .nav-link {
         display: block;
+        font-weight:bold;
         margin-bottom: 5px; } }
 
 .tab-content {
@@ -9152,10 +9149,10 @@ textarea.form-control {
     right: -10px;
     bottom: -10px;
     content: '';
-    border: 1px solid #b7472a;
+    border: 2px solid #c0c0c0;
     z-index: -1;
     border-radius: 50%;
-    -moz-transition: all 0.6s ease;
+    -moz-transition: argb(192, 192, 192) ease;
     -o-transition: all 0.6s ease;
     -webkit-transition: all 0.6s ease;
     -ms-transition: all 0.6s ease;
@@ -9170,7 +9167,7 @@ textarea.form-control {
 
 .sort h3 {
   font-size: 22px;
-  font-weight: 300; }
+  font-weight: 600; }
 
 .about-author .desc h3 {
   font-size: 24px; }
