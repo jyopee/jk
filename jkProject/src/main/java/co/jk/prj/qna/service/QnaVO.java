@@ -12,7 +12,7 @@ public class QnaVO {
 	private String memberId;
 	private String productQnaTitle;
 	private String productQnaSubject;
-	private Date productReviewDate;
+	private Date productQnaDate;
 	private int productQnaHit;
 	private int productQnaSecret;
 }
