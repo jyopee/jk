@@ -107,7 +107,7 @@
 					<div class="col-lg-2 col-md-4 ">
 						<div class="sort w-100 text-center ftco-animate">
 							<div class="img" style="background-image: url(images/cake_main.jpg);"></div>
-							<h3>CAKE</h3>
+							<h3>케이크</h3>
 						</div>
 					</div>
 					<div class="col-lg-2 col-md-4 ">
