@@ -11,5 +11,5 @@ public class OrderVO {
 	private int orderId;
 	private String memberId;
 	private Date orderDate;
-	private String orderState;
+	private int orderState;
 }
