@@ -4,10 +4,10 @@ import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
 
+import co.jk.prj.common.DataSource;
 import co.jk.prj.order.map.OrderMapper;
 import co.jk.prj.order.service.OrderService;
 import co.jk.prj.order.service.OrderVO;
-import co.micol.prj.common.DataSource;
 
 public class OrderServiceImpl implements OrderService {
 	private SqlSession sqlSession = DataSource.getInstance().openSession(true);

@@ -3,9 +3,9 @@ package co.jk.prj.member.command;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import co.jk.prj.common.Command;
 import co.jk.prj.member.service.MemberService;
 import co.jk.prj.member.serviceImpl.MemberServiceImpl;
-import co.micol.prj.common.Command;
 
 
 public class AjaxMemberIdCheck implements Command {

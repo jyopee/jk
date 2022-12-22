@@ -1,4 +1,4 @@
-package co.micol.prj.common;
+package co.jk.prj.common;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

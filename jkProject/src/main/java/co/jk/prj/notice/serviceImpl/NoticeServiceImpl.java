@@ -4,10 +4,10 @@ import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
 
+import co.jk.prj.common.DataSource;
 import co.jk.prj.notice.map.NoticeMapper;
 import co.jk.prj.notice.service.NoticeService;
 import co.jk.prj.notice.service.NoticeVO;
-import co.micol.prj.common.DataSource;
 
 public class NoticeServiceImpl implements NoticeService {
 	private SqlSession sqlSession = DataSource.getInstance().openSession(true);

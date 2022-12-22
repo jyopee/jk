@@ -1,4 +1,4 @@
-package co.micol.prj.common;
+package co.jk.prj.common;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,4 +1,5 @@
-package co.micol.prj.web;
+package co.jk.prj.web;
+
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -11,8 +12,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import co.micol.prj.common.Command;
-import co.micol.prj.main.MainCommand;
+import co.jk.prj.common.Command;
+import co.jk.prj.main.MainCommand;
+import co.jk.prj.member.command.LoignPage;
+
+
 
 /**
  * 모든요청을 받아들이는 컨트롤러
@@ -29,6 +33,7 @@ public class FrontController extends HttpServlet {
 	// 요청한 것을 실행하는 명령을 모아 두는 곳
 	public void init(ServletConfig config) throws ServletException {
 		map.put("/main.do", new MainCommand()); // 처음 보여줄 페이지 명령
+		map.put("/login.do", new LoignPage()); // 처음 보여줄 페이지 명령
 
 
 	}

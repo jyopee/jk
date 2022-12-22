@@ -4,10 +4,10 @@ import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
 
+import co.jk.prj.common.DataSource;
 import co.jk.prj.member.map.MemberMapper;
 import co.jk.prj.member.service.MemberService;
 import co.jk.prj.member.service.MemberVO;
-import co.micol.prj.common.DataSource;
 
 public class MemberServiceImpl implements MemberService {
 	private SqlSession sqlSession = DataSource.getInstance().openSession(true);

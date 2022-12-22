@@ -7,7 +7,7 @@ import org.apache.ibatis.session.SqlSession;
 import co.jk.prj.about.map.AboutMapper;
 import co.jk.prj.about.service.AboutService;
 import co.jk.prj.about.service.AboutVO;
-import co.micol.prj.common.DataSource;
+import co.jk.prj.common.DataSource;
 
 public class NoticeServiceImpl implements AboutService {
 	private SqlSession sqlSession = DataSource.getInstance().openSession(true);

@@ -7,7 +7,7 @@ import org.apache.ibatis.session.SqlSession;
 import co.jk.prj.cart.map.CartMapper;
 import co.jk.prj.cart.service.CartService;
 import co.jk.prj.cart.service.CartVO;
-import co.micol.prj.common.DataSource;
+import co.jk.prj.common.DataSource;
 
 public class CartServiceImpl implements CartService {
 	private SqlSession sqlSession = DataSource.getInstance().openSession(true);
